@@ -20,13 +20,16 @@ class HomeController extends Controller
 
     public function addHomePost(Request $request)
     {
+
         dd($request);
+        // dd($request->url());
         return view('addHome');
     }
 
     public function addHomeGet(Request $request)
     {
-
+        dd($request->all());
+        print_r("Дай мне форму тварь");
         return view('addHome');
     }
 }

@@ -7,9 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-   @extends('test')
-   @section('test')
-       
-   @endsection
+    <h1 style="color: blueviolet">Test</h1>
+
+    @yield('test')
 </body>
 </html>
