@@ -9,6 +9,7 @@
 <body>
    @extends('test')
    @section('test')
+       @dump(env('DB_DATABASE'))
        
    @endsection
 </body>

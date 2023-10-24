@@ -28,7 +28,7 @@ class HomeController extends Controller
 
     public function addHomeGet(Request $request)
     {
-        dd($request->all());
+        // dd($request->all()); 
         print_r("Дай мне форму тварь");
         return view('addHome');
     }
